@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.artwork {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    text-align: center;
+}
+
+.artwork img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.artwork h2 {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.artwork p {
+    color: #666;
+    font-size: 0.9em;
+}
+
+.loading {
+    display: none;
+    text-align: center;
+    font-size: 1.5em;
+    color: #666;
+    margin-top: 20px;
+}
+
+/* Hiển thị phần tử loading khi có lớp active */
+.loading.active {
+    display: block;
+}
